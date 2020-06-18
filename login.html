@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Acurray Research</title>
+	<meta https-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta https-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<meta name="document-type" content="Public"/>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/dist/app.css">
+	<link rel="stylesheet" href="/dist/custom.css">
+</head>
+<body class="ar__body bg-blue-700">
+	<header id="ar__navigation" class="bg-gray-400 fixed top-0 left-0 right-0 w-full z-10">
+		<div class="ar__logo flex items-center justify-between absolute left-0 top-0 z-20">
+			<a href="javascript:void(0)"><img class="logo" src="/images/logo.png" alt=""></a>
+		</div>
+		<div class="nav__container relative z-10 flex flex-col justify-between">
+			<nav class="tp__header flex justify-end text-blue-800 items-center">
+				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M17 16a3 3 0 1 1-2.83 2H9.83a3 3 0 1 1-5.62-.1A3 3 0 0 1 5 12V4H3a1 1 0 1 1 0-2h3a1 1 0 0 1 1 1v1h14a1 1 0 0 1 .9 1.45l-4 8a1 1 0 0 1-.9.55H5a1 1 0 0 0 0 2h12zM7 12h9.38l3-6H7v6zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>&nbsp;<span class="text-black font-semibold">My Cart</span>
+				</a>
+				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z"/></svg>&nbsp;<span class="text-black font-semibold">My Account</span>
+				</a>
+				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M7 10V7a5 5 0 1 1 10 0v3h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h2zm2 0h6V7a3 3 0 0 0-6 0v3zm-4 2v8h14v-8H5zm7 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1z"/></svg>&nbsp;<span class="text-black font-semibold">Login</span>
+				</a>
+				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M9 12A5 5 0 1 1 9 2a5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2zm1-5a1 1 0 0 1 0-2 5 5 0 0 1 5 5v2a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3zm-2-4a1 1 0 0 1 0-2 3 3 0 0 0 0-6 1 1 0 0 1 0-2 5 5 0 0 1 0 10z"/></svg>&nbsp;<span class="text-black font-semibold">Register</span>
+				</a>
+				<a href="javascript:void(0)" id="search_btn" class="p-2 bg-blue-700 text-gray-300 rounded-full mr-4 ml-1 hover:bg-blue-800">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+				</a>
+			</nav>
+			<nav class="flex justify-end bg-blue-700 ar__nav_list">
+				<a href="/" class="ar__item">Home</a>
+				<a href="javascript:void(0)" class="ar__item">About us</a>
+				<a href="/reports.html" class="ar__item active">Market Reports</a>
+				<a href="javascript:void(0)" class="ar__item flex items-center">Categories<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></a>
+				<a href="javascript:void(0)" class="ar__item">Contact us</a>
+			</nav>
+		</div>
+	</header>
+	<div id="ar__view" class="bg-map">
+		<section class="ar__reports_view py-3">
+			<div class="container mx-auto">
+				<div class="flex justify-center px-6 my-12">
+					<div class="w-full xl:w-3/4 lg:w-11/12 flex">
+						<div class="w-full h-auto bg-blue-400 hidden md:block md:w-2/5 lg:w-1/2 bg-cover rounded-l-lg"
+							style="background-image: url('/images/login-cover.jpg')"
+						></div>
+						<div class="w-full md:w-3/5 lg:w-1/2 bg-white p-5 rounded-lg md:rounded-l-none">
+							<h3 class="pt-4 text-2xl text-center">Login</h3>
+							<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded" autocomplete="off">
+								<div class="mb-4">
+									<label class="block mb-2 text-sm font-bold text-gray-700" for="username">
+										Username
+									</label>
+									<input
+										class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow-sm appearance-none focus:outline-none focus:shadow-outline"
+										id="username"
+										type="text"
+										placeholder="Username" />
+								</div>
+								<div class="mb-4">
+									<label class="block mb-2 text-sm font-bold text-gray-700" for="password">
+										Password
+									</label>
+									<input
+										class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow-sm appearance-none focus:outline-none focus:shadow-outline"
+										id="password"
+										type="password"
+										placeholder="Password" />
+								</div>
+								<div class="mb-4">
+									<input class="mr-2 leading-tight" type="checkbox" id="checkbox_id" />
+									<label class="text-sm" for="checkbox_id">
+										Remember Me
+									</label>
+								</div>
+								<div class="mb-6 text-center">
+									<button class="btn w-full flex items-center justify-center font-semibold" type="submit" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5 mr-2"><path d="M7 10V7a5 5 0 1 1 10 0v3h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h2zm2 0h6V7a3 3 0 0 0-6 0v3zm-4 2v8h14v-8H5zm7 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1z"></path></svg>Login</button>
+								</div>
+								<hr class="mb-6 border-t" />
+								<div class="text-center">
+									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="./register.html" >Create an Account!</a>
+								</div>
+								<div class="text-center">
+									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="./forgot-password.html" >Forgot Password?</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="bg-gray-800">
+			<div class="container mx-auto">
+				<div class="footer-top flex py-10 text-sm text-white">
+					<ul class="w-1/4 px-4">
+						<li><h3 class="text-lg pb-2 border-b mb-2">Industries</h3></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/healthcare-and-pharmaceutical"> Healthcare and Pharmaceutical</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/energy-and-utilities">Energy and utilities</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/ict">ICT</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/aerospace-and-defense">Aerospace and defense</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/automotives">Automotives</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/chemicals-and-materials">Chemicals and materials</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/industrial-manufacturing">Industrial-manufacturing</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/consumer-sector">Consumer sector</a></li>
+					 	<li><a class="mb-1 hover:text-yellow-600" href="/food-and-beverages">Food and Beverages</a></li>
+						<li><a class="mb-1 hover:text-yellow-600" href="/electronics">Electronics</a></li>
+					</ul>
+					<div class="w-1/4 px-4">
+						<h3 class="text-lg pb-2 border-b mb-2">Find Help</h3>
+						<ul class="mb-5">
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">How to order</a></li>
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">Terms & Conditions</a></li>
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">Privacy and policy</a></li>
+						</ul>
+						<h3 class="text-lg pb-2 border-b mb-2">More Info</h3>
+						<ul>
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">Home</a></li>
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">About Us</a></li>
+							<li><a class="mb-1 hover:text-yellow-600" href="javascript:void(0)">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="w-1/4 px-4">
+						<h3 class="text-lg pb-2 border-b mb-2">Quick Contact</h3>
+						<form action="">
+							<input type="text" placeholder="Name" class="ar__inp border-t-0 border-l-0 border-r-0 mb-1" required>
+							<input type="text" placeholder="Email address" class="ar__inp border-t-0 border-l-0 border-r-0 mb-1" required>
+							<input type="text" placeholder="Phone" class="ar__inp border-t-0 border-l-0 border-r-0 mb-1" required>
+							<textarea rows="2" placeholder="Message" class="ar__inp border-t-0 border-l-0 border-r-0"></textarea>
+							<button type="submit" class="block mt-2 p-2 bg-yellow-600 rounded text-white w-full hover:bg-yellow-700 focus:outline-none focus:bg-blue-900" type="submit">Submit</button>
+						</form>
+					</div>
+					<div class="w-1/4 px-4">
+						<h3 class="text-lg pb-2 border-b mb-2">Accuray Research LLP</h3>
+						<p>Address: B-61, Sector 33,<br>
+						Near NTPC Township, Noida,<br>
+						Uttar Pradesh 201307<br>
+						Phone:+91 9042242823 Email:info@accurayresearch.com</p>
+						<img src="/images/pay.png" class="my-4" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="bg-blue-900 py-2">
+				<div class="container mx-auto">
+					<span class="text-sm text-white">Copyright 2016 Accuray Research, All Rights Reserved</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="ar__modal" id="search_md">
+		<div class="ar__body flex items-center justify-between px-4 text-gray-800 mt-24">
+			<a href="javascript:void(0)" class="ar__close right-0 left-auto mr-2"></a>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+			<input type="text" placeholder="Search" class="focus:outline-none w-full bg-transparent p-4">
+		</div>
+	</div>
+	<script src="/js/app.js"></script>
+	<script src="/js/uilang.js"></script>
+	<code>
+	  clicking on "#search_btn" adds class "open" on "#search_md"
+	  clicking on ".ar__close" removes class "open" on "#search_md"
+	</code>
+</body>
+</html>
