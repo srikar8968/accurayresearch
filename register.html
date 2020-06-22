@@ -8,13 +8,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<meta name="document-type" content="Public"/>
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/dist/app.css">
-	<link rel="stylesheet" href="/dist/custom.css">
+	<link rel="stylesheet" href="dist/app.css">
+	<link rel="stylesheet" href="dist/custom.css">
 </head>
-<body class="ar__body bg-blue-700">
+<body class="ar__body bg-blue-600">
 	<header id="ar__navigation" class="bg-gray-400 fixed top-0 left-0 right-0 w-full z-10">
 		<div class="ar__logo flex items-center justify-between absolute left-0 top-0 z-20">
-			<a href="javascript:void(0)"><img class="logo" src="/images/logo.png" alt=""></a>
+			<a href="/"><img class="logo" src="images/logo.png" alt=""></a>
 		</div>
 		<div class="nav__container relative z-10 flex flex-col justify-between">
 			<nav class="tp__header flex justify-end text-blue-800 items-center">
@@ -24,20 +24,23 @@
 				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z"/></svg>&nbsp;<span class="text-black font-semibold">My Account</span>
 				</a>
-				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+				<a href="login.html" class="p-3 text-sm flex items-center hover:text-yellow-600">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M7 10V7a5 5 0 1 1 10 0v3h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h2zm2 0h6V7a3 3 0 0 0-6 0v3zm-4 2v8h14v-8H5zm7 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1z"/></svg>&nbsp;<span class="text-black font-semibold">Login</span>
 				</a>
-				<a href="javascript:void(0)" class="p-3 text-sm flex items-center hover:text-yellow-600">
+				<a href="register.html" class="p-3 text-sm flex items-center hover:text-yellow-600">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M9 12A5 5 0 1 1 9 2a5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2zm1-5a1 1 0 0 1 0-2 5 5 0 0 1 5 5v2a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3zm-2-4a1 1 0 0 1 0-2 3 3 0 0 0 0-6 1 1 0 0 1 0-2 5 5 0 0 1 0 10z"/></svg>&nbsp;<span class="text-black font-semibold">Register</span>
 				</a>
 				<a href="javascript:void(0)" id="search_btn" class="p-2 bg-blue-700 text-gray-300 rounded-full mr-4 ml-1 hover:bg-blue-800">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
 				</a>
+				<!-- <div class="ar__search_container mr-4">
+					<input type="text" placeholder="Search.." class="py-1 px-4 rounded-full focus:outline-none focus:shadow bg-gray-500">
+				</div> -->
 			</nav>
-			<nav class="flex justify-end bg-blue-700 ar__nav_list">
+			<nav class="flex justify-end bg-blue-600 ar__nav_list">
 				<a href="/" class="ar__item">Home</a>
 				<a href="javascript:void(0)" class="ar__item">About us</a>
-				<a href="/reports.html" class="ar__item active">Market Reports</a>
+				<a href="reports.html" class="ar__item">Market Reports</a>
 				<a href="javascript:void(0)" class="ar__item flex items-center">Categories<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></a>
 				<a href="javascript:void(0)" class="ar__item">Contact us</a>
 			</nav>
@@ -49,7 +52,7 @@
 				<div class="flex justify-center px-6 my-12">
 					<div class="w-full xl:w-3/4 lg:w-11/12 flex">
 						<div class="w-full h-auto bg-gray-400 hidden md:block md:w-2/5 bg-cover rounded-l-lg"
-							style="background-image: url('/images/login-cover1.jpg')"
+							style="background-image: url('images/login-cover1.jpg')"
 						></div>
 						<div class="w-full md:w-3/5 bg-white p-5 rounded-lg md:rounded-l-none">
 							<h3 class="pt-4 text-2xl text-center">Register</h3>
@@ -140,10 +143,10 @@
 								</div>
 								<hr class="mb-6 border-t" />
 								<div class="text-center">
-									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="./login.html" >Already have an account?</a>
+									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="login.html" >Already have an account?</a>
 								</div>
 								<div class="text-center">
-									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="./forgot-password.html" >Forgot Password?</a>
+									<a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800" href="forgot-password.html" >Forgot Password?</a>
 								</div>
 							</form>
 						</div>
@@ -198,7 +201,7 @@
 						Near NTPC Township, Noida,<br>
 						Uttar Pradesh 201307<br>
 						Phone:+91 9042242823 Email:info@accurayresearch.com</p>
-						<img src="/images/pay.png" class="my-4" alt="">
+						<img src="images/pay.png" class="my-4" alt="">
 					</div>
 				</div>
 			</div>
@@ -217,8 +220,8 @@
 			<input type="text" placeholder="Search" class="focus:outline-none w-full bg-transparent p-4">
 		</div>
 	</div>
-	<script src="/js/app.js"></script>
-	<script src="/js/uilang.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/uilang.js"></script>
 	<code>
 	  clicking on "#search_btn" adds class "open" on "#search_md"
 	  clicking on ".ar__close" removes class "open" on "#search_md"
