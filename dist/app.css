@@ -516,7 +516,7 @@ img {
 }
 
 .bg-map{
-  background-image: url("../images/world_map1_PNG28.png");
+  background-image: url("../images/world_map2_PNG28.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -770,6 +770,18 @@ img {
   --border-opacity: 1;
   border-color: #e2e8f0;
   border-color: rgba(226, 232, 240, var(--border-opacity))
+}
+
+.ar__list li a.secondary{
+  --bg-opacity: 1;
+  background-color: #ecc94b;
+  background-color: rgba(236, 201, 75, var(--bg-opacity))
+}
+
+.ar__list li a.secondary:focus{
+  --bg-opacity: 1;
+  background-color: #d69e2e;
+  background-color: rgba(214, 158, 46, var(--bg-opacity))
 }
 
 .ar__list li a:hover{
