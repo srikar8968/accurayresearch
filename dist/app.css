@@ -773,9 +773,7 @@ img {
 }
 
 .ar__list li a.secondary{
-  --bg-opacity: 1;
-  background-color: #ecc94b;
-  background-color: rgba(236, 201, 75, var(--bg-opacity))
+  background-color: #eaae02;
 }
 
 .ar__list li a.secondary:focus{
